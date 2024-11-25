@@ -18,8 +18,7 @@ function Navbar() {
       <Link  to='/services' ><li className="py-4 my-4 border-b border-slate-800 hover:text-yellow-100 hover:rounded">Services</li></Link>
       <Link  to='/contact' ><li className="py-4 my-4 border-b border-slate-800 hover:text-yellow-100 hover:rounded">Contact</li></Link>
       <Link  to='/gallery' ><li className="py-4 my-4 border-b border-slate-800 hover:text-yellow-100 hover:rounded">Gallery</li></Link>
-      <Link to=''> <li><button className="bg-pink-500 text-white font-semibold my-6 py-2 px-4 rounded-2xl hover:bg-pink-700">Book Now</button>
-      </li></Link>
+      
       </ul>
 </div>
   </>
@@ -39,8 +38,6 @@ function Navbar() {
       <Link  to='/services' ><li className="py-4 my-4 border-b cursor-pointer border-slate-800 hover:text-fuchsia-400 hover:border-fuchsia-400">Services</li></Link>
       <Link  to='/contact' ><li className="py-4 my-4 border-b cursor-pointer border-slate-800 hover:text-fuchsia-400 hover:border-fuchsia-400">Contact</li></Link>
       <Link  to='/gallery' ><li className="py-4 my-4 border-b border-slate-800 hover:text-fuchsia-400 hover:border-fuchsia-400 hover:rounded">Gallery</li></Link>
-     <Link to=''> <li><button className="bg-pink-500 text-white font-semibold my-6 py-3  px-2   rounded-2xl hover:bg-pink-700">Book Now</button>
-      </li></Link>
       </ul>
 </div>
         </div>

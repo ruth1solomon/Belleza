@@ -12,19 +12,19 @@ function Contact() {
         {/* Address */}
         <div className="flex items-center mb-4">
           <FaMapMarkerAlt className="text-pink-500 text-xl mr-3" />
-          <p>123 Beauty Lane, Glamour City, GC 45678</p>
+          <p>Bole Dat Tower 1st Floor , Addis Ababa , Ethiopia</p>
         </div>
 
         
         <div className="flex items-center mb-4">
           <FaPhone className="text-pink-500 text-xl mr-3" />
-          <p>(123) 456-7890</p>
+          <p>0911786389/0928577777</p>
         </div>
 
         
         <div className="flex items-center mb-4">
           <FaEnvelope className="text-pink-500 text-xl mr-3" />
-          <p>info@beautyservices.com</p>
+          <p>Feven@belleza.com</p>
         </div>
 
        
@@ -32,7 +32,7 @@ function Contact() {
           <FaInstagram className="text-pink-500 text-xl mr-3" />
           <p>
             <a href="https://instagram.com/beautyservices" target="_blank" rel="noopener noreferrer">
-              @beautyservices
+              @bellezamakeup_1
             </a>
           </p>
         </div>
