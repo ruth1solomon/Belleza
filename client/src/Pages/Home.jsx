@@ -4,20 +4,22 @@ import "animate.css";
 import Aboutpage from './Aboutpage';
 import Contact from './Contact';
 import Services from './Services';
-
+import set from '/src/Components/Images/set1.png';
+import imgr from '/src/Components/Images/img1r.png';
+import ok from '/src/Components/Images/ok.png';
 const Home = () => {
   const slides = [
     {
       text: "Welcome to Belleza Makeup. Where Beauty Meets Artistry.",
-      image: "/src/Components/Images/img1r.png",
+      image: imgr,
     },
     {
       text: "Discover your beauty with Us. Where every face tells a story.",
-      image: "/src/Components/Images/set1.png",
+      image: ok,
     },
     {
       text: "Join us to redefine elegance and style!",
-      image: "/src/Components/Images/ok.png",
+      image: set,
     },
   ];
 
