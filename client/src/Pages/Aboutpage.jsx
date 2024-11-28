@@ -44,7 +44,7 @@ function Aboutpage() {
   const { ref: textRef, inView: textInView } = useInView({ triggerOnce: true });
 
   return (
-    <div className="border-b border-neutral-900 pb-4 text-pink-200">
+    <div className="border-b bg-white-chocolate border-neutral-900 pb-4 text-deep-chocolate">
       {/* Title */}
       <h1
         ref={titleRef}

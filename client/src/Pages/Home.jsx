@@ -49,16 +49,16 @@ import Services from './Services';
 const Home = () => {
   const slides = [
     {
-      text: "Welcome to Belleza Makeup -Where Beauty Meets Artistry.",
+      text: "Welcome to Belleza Makeup. Where Beauty Meets Artistry.",
       image: "/src/Components/Images/img1r.png",
     },
     {
       text: "Discover your beauty with Us. Where every face tells a story.",
-      image: "/src/Components/Images/blush1.jpg",
+      image: "/src/Components/Images/set1.png",
     },
     {
       text: "Join us to redefine elegance and style!",
-      image: "/src/Components/Images/blush7.jpeg",
+      image: "/src/Components/Images/ok.png",
     },
   ];
 
@@ -96,7 +96,7 @@ const Home = () => {
 
   return (
     <div>
-    <div className="bg-black text-pink-200 min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
+    <div className="bg-white-chocolate text-dark-brown min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
       {/* Header */}
       <header className="w-full  text-3xl  pb-5 font-thin tracking-tight text-center lg:mt-5 lg:text-6xl animate__animated animate__fadeIn">
         Belleza Makeup
@@ -134,7 +134,7 @@ const Home = () => {
       {/* Controls */}
       <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
         <button
-          className="bg-pink-500 text-black py-2 px-4 rounded hover:bg-pink-600 transition text-xl"
+          className="bg-golden-beige text-black py-1 px-3 rounded hover:bg-dark-golden transition text-xl"
           onClick={prevSlide}
         >
           &lt;
@@ -142,7 +142,7 @@ const Home = () => {
       </div>
       <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
         <button
-          className="bg-pink-500 text-black py-2 px-4 rounded hover:bg-pink-600 transition text-xl"
+          className="bg-golden-beige text-black py-1 px-3 rounded hover:bg-dark-golden transition text-xl"
           onClick={nextSlide}
         >
           &gt;

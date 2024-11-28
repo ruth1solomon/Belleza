@@ -12,7 +12,7 @@ function Services() {
   const { ref: hairRef, inView: hairInView } = useInView({ triggerOnce: true });
 
   return (
-    <div className="border-b border-neutral-900 pb-4 text-pink-200">
+    <div className="border-b border-neutral-900 bg-white-chocolate pb-4 text-deep-chocolate">
       {/* Title */}
       <h1 className="my-5 text-center text-4xl animate__animated animate__fadeInDown">Services</h1>
 

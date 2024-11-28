@@ -11,13 +11,13 @@ function Contact() {
   return (
     <div
       ref={contactRef}
-      className={`min-h-screen border-b border-neutral-900 flex flex-col items-center py-10 px-5 sm:px-10 ${
+      className={`min-h-screen bg-white-chocolate border-b border-neutral-900 flex flex-col items-center py-10 px-5 sm:px-10 ${
         contactInView ? "animate__animated animate__zoomIn" : ""
       }`}
     >
       {/* Title */}
       <h1
-        className={`text-4xl font-thin text-center text-pink-200 mb-8 ${
+        className={`text-4xl font-thin text-center text-deep-chocolate mb-8 ${
           contactInView ? "animate__animated animate__bounceInLeft" : ""
         }`}
       >
@@ -26,7 +26,7 @@ function Contact() {
 
       {/* Contact Info */}
       <div
-        className={`border-pink-500 border-2 w-full max-w-md rounded-lg shadow-lg p-8 text-pink-200 ${
+        className={`border-pink-500 border-2 w-full max-w-md rounded-lg shadow-lg p-8 text-dark-brown ${
           contactInView ? "animate__animated animate__bounceInLeft animate__delay-1s" : ""
         }`}
       >

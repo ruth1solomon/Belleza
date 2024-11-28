@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-      <div className=" px-8 mx-auto bg-black" >
+      <div className=" px-8 mx-auto bg-white-chocolate" >
         
         <BrowserRouter>
         <Navbar/>

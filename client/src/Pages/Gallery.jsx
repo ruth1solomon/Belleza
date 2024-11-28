@@ -190,7 +190,7 @@ function Gallery() {
 
   return (
     <div>
-      <h1 className="my-2 text-center text-4xl text-pink-200">Photo Gallery</h1>
+      <h1 className="my-2 text-center text-4xl text-deep-chocolate">Photo Gallery</h1>
       <div className="p-5 md:p-10">
         <div className="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 md:[&>img:not(:first-child):mt-8">
           <img className="gallery-image" src={pic1} alt="Photo" />
